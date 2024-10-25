@@ -2,7 +2,7 @@
 layout: ../../layouts/post.astro
 title: Creating a Markdown Editor in your react projects
 description: How to create a Markdown Editor in your react projects
-dateFormatted: July 7th, 2024
+date: 2024-07-07
 tags: ["react", "markdown", "tutorial"]
 cover: "/assets/images/posts/cover_markdown_editor.png"
 ---

@@ -2,7 +2,7 @@
 layout: ../../layouts/post.astro
 title: Creating a Smooth Toggle Switch in React; A Step-by-Step Guide
 description: How to create a Smooth Toggle Switch in React
-dateFormatted: July 15th, 2024
+date: 2024-07-15
 tags: ["react", "toggle switch", "tutorial"]
 cover: "/assets/images/posts/smooth_toogle_switch.jpg"
 ---

@@ -2,7 +2,7 @@
 layout: ../../layouts/post.astro
 title: Mastering Redux Toolkit in Your React Projects
 description: How to use Redux Toolkit to manage the state in your React applications
-dateFormatted: Dec 22th, 2023
+date: 2023-12-22
 tags: ["react", "redux toolkit", "tutorial"]
 cover: "/assets/images/posts/cover_mastering-redux-toolkit.png"
 ---
