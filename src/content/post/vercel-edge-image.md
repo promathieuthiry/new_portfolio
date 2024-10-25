@@ -3,6 +3,8 @@ layout: ../../layouts/post.astro
 title: Using Vercel Edge to Process Images
 description: Using Vercel Edge to Process Images
 dateFormatted: Dec 17th, 2023
+tags: ["nextjs", "rss", "tutorial"]
+cover: "/assets/images/posts/rssfeed_cover.jpeg"
 ---
 
 Previously, I shared an article on [using Cloudflare Worker to process images](https://dev.to/ccbikai/shi-yong-cloudflare-worker-chu-li-tu-pian-38dl-temp-slug-7437591). However, due to the limitations of the free version of Worker, which only allows for 10ms of CPU usage, there were frequent resource overages and high failure rates. Today, I had some free time, so I decided to try using Vercel Edge instead and share my findings with those who are interested.
@@ -75,6 +77,6 @@ I have open-sourced this solution on my GitHub repository, and you can deploy it
 
 [![ccbikai/vercel-edge-image - GitHub](https://github.html.zone/ccbikai/vercel-edge-image)](https://github.com/ccbikai/vercel-edge-image)
 
-* * *
+---
 
 [![Buy Me A Coffee](https://static.miantiao.me/share/0WmsVP/CcmGr8.png)](https://www.buymeacoffee.com/ccbikai)
