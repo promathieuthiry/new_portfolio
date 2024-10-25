@@ -1,23 +1,23 @@
 [
-	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
-	},
-	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
-	},
-	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
-	}
+  {
+    "dates": "2024 · Present",
+    "role": "Front-end Engineer",
+    "company": "Glanceable",
+    "description": "Develop a performant dashboard in React, focusing on efficient handling of large datasets. Create intuitive data visualizations to present complex AI insights, working closely with data scientists and backend teams.",
+    "logo": "/assets/images/experiences/glanceable_logo.png"
+  },
+  {
+    "dates": "2021 · 2023",
+    "role": "Front-end Engineer",
+    "company": "api.video",
+    "description": "Built a modern tech stack dashboard (React, Next.js, Tailwind CSS, TypeScript) with reusable components documented in Storybook. Created technical content including Strapi plugins, demos, and blog articles to showcase solutions and attract new clients.",
+    "logo": "/assets/images/experiences/api_video_logo.png"
+  },
+  {
+    "dates": "2020 · 2021",
+    "role": "Front-end Developer",
+    "company": "Hubup",
+    "description": "Engineered key features including interactive maps, real-time chat systems, and file management. Successfully adapted web applications to mobile with react native.",
+    "logo": "/assets/images/experiences/hubup_logo.png"
+  }
 ]
