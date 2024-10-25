@@ -1,13 +1,25 @@
-# Aria Template
+# Portfolio Website Readme
 
-This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
+## Table of Contents
 
-Astro port of [aria](https://github.com/static-templates/aria).
+- [Portfolio Website Readme](#portfolio-website-readme)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Technologies Used](#technologies-used)
+  - [Inspiration](#inspiration)
 
-![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+---
 
-You can install this theme with the [Astro](https://astro.build) command like so:
+## Introduction
 
-```js
-npm create astro@latest -- --template ccbikai/astro-aria
-```
+This portfolio website is built with Astro, showcasing a range of skills and technologies.
+
+## Technologies Used
+
+- Astro
+- TypeScript
+- Tailwind CSS
+
+## Inspiration
+
+It is a cloned from this [Astro Portfolio Template](https://github.com/ccbikai/astro-aria) that I customized to my needs.
