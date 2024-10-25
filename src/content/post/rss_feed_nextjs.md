@@ -7,6 +7,8 @@ tags: ["nextjs", "rss", "tutorial"]
 cover: "/assets/images/posts/rssfeed_cover.jpeg"
 ---
 
+![Blog article cover](/assets/images/posts/rssfeed_cover.jpeg)
+
 ## Keep Your Audience Informed
 
 Hey there! Are you looking to keep your users up-to-date with the latest content from your Next.js project? One powerful way to achieve this is by implementing an RSS feed. In this blog post, we'll explore how to create an RSS feed in your Next.js project using the magic of the [Rss library](https://github.com/dylang/node-rss). By the end, you'll have a solid understanding of how to provide your audience with an easy and convenient way to stay informed.
