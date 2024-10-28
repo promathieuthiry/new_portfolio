@@ -2,7 +2,7 @@
 import BlogPost from "../blog-post.astro";
 import Button from "../button.astro";
 
-const feed = "https://feed.miantiao.me/";
+const feed = "https://www.mathieuthiry.fr/rss.xml";
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -62,7 +62,7 @@ const feed = "https://feed.miantiao.me/";
               class="font-bold"
               href={`https://www.inoreader.com/feed/${encodeURIComponent(feed)}`}
               >Inoreader</a
-            > or <a class="font-bold" href="/rss.xml" target="_blank">RSS</a>.
+            > or <a class="font-bold" href={feed} target="_blank">RSS</a>.
           </p>
           <div class="flex flex-col items-center w-full mt-4 space-y-3">
             <input
