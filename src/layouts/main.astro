@@ -20,7 +20,8 @@ const defaultImageDescription = isBlogPost ? `${title} cover` : "Mathieu Thiry, 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <link rel="sitemap" href="/sitemap-index.xml" />
-
+    <!-- Add autodiscovery for rss -->
+    <link rel="alternate" type="application/rss+xml" title="Mathieu Thiry Blog RSS Feed" href="/rss.xml" />
     <SEO
       title={`${title} ${defaultTitle}`}
       description={description ?? defaultDescription}
