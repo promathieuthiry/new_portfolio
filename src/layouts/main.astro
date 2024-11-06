@@ -9,7 +9,7 @@ const defaultDescription = "Welcome to my portfolio! I’m a front-end developer
 const defaultOgTitle = "👋 Hi, I'm Mathieu Thiry | React & TypeScript Developer Portfolio 🚀"
 const siteUrl = "https://www.mathieuthiry.fr"
 const currentUrl = new URL(Astro.url.pathname, siteUrl).toString();
-const cover = image ? `${siteUrl}/${image}` : `${siteUrl}/assets/images/profile-opengraph-format.jpg`;
+const cover = image ? `${siteUrl}/${image}` : `${siteUrl}/assets/images/opengraph/cover-open-graph.png`;
 const defaultImageDescription = isBlogPost ? `${title} cover` : "Mathieu Thiry, React & TypeScript Developer Portfolio cover";
 ---
 
