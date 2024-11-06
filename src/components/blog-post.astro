@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import Tag from "./ui/tag.astro";
 const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
@@ -33,7 +34,19 @@ const postsLoop = allPosts
               class="w-full h-auto aspect-[16/9] object-cover z-100 transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:brightness-105" 
             />
           </div>
-
+          {post.tags && (
+            <div class="flex flex-wrap gap-2 pb-2">
+              {post.tags.map((tag: string) => {
+                return (
+                  <Tag 
+                  text={tag} 
+                    color="blue" 
+                    class=" uppercase "
+                  />
+                )
+              })}
+            </div>
+          )}
           <h2 class="flex items-center mb-3">
             <a
               href={post.link}
@@ -87,6 +100,7 @@ const postsLoop = allPosts
           <div class="mt-2.5 text-xs font-medium text-neutral-800 dark:text-neutral-300">
             Posted on {post.formattedDate}
           </div>
+          
         </div>
       </div>
     )
