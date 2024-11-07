@@ -4,10 +4,10 @@ title: Creating an RSS Feed in your Next.js Project
 description: How to create an RSS Feed in your Next.js Project
 date: 2023-06-24
 tags: ["nextjs", "rss", "tutorial"]
-cover: "/assets/images/posts/rssfeed_cover.jpeg"
+cover: "/src/assets/images/posts/rssfeed_cover.jpeg"
 ---
 
-![Blog article cover](/assets/images/posts/rssfeed_cover.jpeg)
+![Blog article cover](/src/assets/images/posts/rssfeed_cover.jpeg)
 
 ## Keep Your Audience Informed
 

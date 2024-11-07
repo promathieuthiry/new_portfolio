@@ -4,20 +4,20 @@
     "role": "Front-end Engineer",
     "company": "Glanceable",
     "description": "Develop a performant dashboard in React, focusing on efficient handling of large datasets. Create intuitive data visualizations to present complex AI insights, working closely with data scientists and backend teams.",
-    "logo": "/assets/images/experiences/glanceable_logo.png"
+    "logo": "/src/assets/images/experiences/glanceable_logo.png"
   },
   {
     "dates": "2021 · 2023",
     "role": "Front-end Engineer",
     "company": "api.video",
     "description": "Built a modern tech stack dashboard (React, Next.js, Tailwind CSS, TypeScript) with reusable components documented in Storybook. Created technical content including Strapi plugins, demos, and blog articles to showcase solutions and attract new clients.",
-    "logo": "/assets/images/experiences/api_video_logo.png"
+    "logo": "/src/assets/images/experiences/api_video_logo.png"
   },
   {
     "dates": "2020 · 2021",
     "role": "Front-end Developer",
     "company": "Hubup",
     "description": "Engineered key features including interactive maps, real-time chat systems, and file management. Successfully adapted web applications to mobile with react native.",
-    "logo": "/assets/images/experiences/hubup_logo.png"
+    "logo": "/src/assets/images/experiences/hubup_logo.png"
   }
 ]

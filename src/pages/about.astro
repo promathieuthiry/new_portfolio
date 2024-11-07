@@ -1,8 +1,10 @@
 ---
+import { Image } from "astro:assets";
 import experiences from "../collections/experiences.json";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import aboutPic from "/src/assets/images/experiences/about_me_mathieu_thiry.jpg";
 ---
 
 <Layout title="About Me">
@@ -12,7 +14,7 @@ import Layout from "../layouts/main.astro";
       description=""
     />
 
-    <img src="/assets/images/experiences/about_me_mathieu_thiry.jpg" class="relative z-30 w-full my-10 rounded-xl aspect-video object-cover" />
+    <Image src={aboutPic} alt="Mathieu Thiry working on his laptop standing" class="relative z-30 w-full my-10 rounded-xl aspect-video object-cover" />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p

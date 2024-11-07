@@ -4,10 +4,10 @@ title: Creating a Markdown Editor in your react projects
 description: How to create a Markdown Editor in your react projects
 date: 2024-07-07
 tags: ["react", "markdown", "tutorial"]
-cover: "/assets/images/posts/cover_markdown_editor.png"
+cover: "/src/assets/images/posts/cover_markdown_editor.png"
 ---
 
-![Blog article cover](/assets/images/posts/cover_markdown_editor.png)
+![Blog article cover](/src/assets/images/posts/cover_markdown_editor.png)
 
 👋 If you're looking to add a user-friendly markdown editor to your React project, you're in luck. We'll be diving into [@uiw/react-md-editor](https://www.npmjs.com/package/@uiw/react-md-editor), a powerful library that simplifies the creation of markdown editors. By the end of this post, we'll have recreated a markdown editor similar to the one you use when writing comments on GitHub pull requests! The repo is [here](https://github.com/promathieuthiry/tutorials/tree/main/markdown_editor) and the live website [here](https://reactmarkdowneditor-mathieus-projects-05c34cfb.vercel.app/).
 

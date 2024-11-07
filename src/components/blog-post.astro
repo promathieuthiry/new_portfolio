@@ -1,6 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import Tag from "./ui/tag.astro";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from 'astro';
+import fallbackPic from "../assets/images/fallback_image.png";
+
 const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
@@ -15,6 +19,9 @@ const postsLoop = allPosts
       formattedDate: post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
     };
   });
+
+  const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/posts/*.{jpeg,jpg,png,gif}')
+
 ---
 
 {
@@ -29,11 +36,13 @@ const postsLoop = allPosts
 
         <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
           <div class="overflow-hidden rounded-lg mb-5">
-            <img 
+            {images[post.cover] && (
+            <Image 
               alt={post.title}
-              src={post.cover} 
+              src={images[post.cover]?.() ?? fallbackPic}
               class="w-full h-auto aspect-[16/9] object-cover z-100 transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:brightness-105" 
-            />
+              />
+            )}
           </div>
           {post.tags && (
             <div class="flex flex-wrap gap-2 pb-2">

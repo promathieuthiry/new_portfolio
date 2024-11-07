@@ -4,10 +4,10 @@ title: Mastering Redux Toolkit in Your React Projects
 description: How to use Redux Toolkit to manage the state in your React applications
 date: 2023-12-22
 tags: ["react", "redux toolkit", "tutorial"]
-cover: "/assets/images/posts/cover_mastering-redux-toolkit.png"
+cover: "/src/assets/images/posts/cover_mastering-redux-toolkit.png"
 ---
 
-![cover blog article](/assets/images/posts/cover_mastering-redux-toolkit.png)
+![cover blog article](/src/assets/images/posts/cover_mastering-redux-toolkit.png)
 
 ## Mastering Redux Toolkit in Your React Projects
 
@@ -217,7 +217,7 @@ export const TasksSlice = createSlice({
     },
     toggleTask: (state, action) => {
       const selectedTask = state.tasks.find(
-        (task) => task.id === action.payload.id
+        (task) => task.id === action.payload.id,
       );
       if (selectedTask) selectedTask.done = !selectedTask.done;
     },
