@@ -20,18 +20,13 @@ const defaultImageDescription = isBlogPost ? `${title} cover` : "Mathieu Thiry, 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
      <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQ6170C8KH"></script>
-     <script>
-         // @ts-ignore
+     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-EQ6170C8KH"></script>
+     <script is:inline>
          window.dataLayer = window.dataLayer || [];
-         // @ts-ignore
-         function gtag(...args: any[]){dataLayer.push(args);}
-         // @ts-ignore
+         function gtag(){dataLayer.push(arguments);}
          gtag('js', new Date());
 
-         // @ts-ignore
          gtag('config', 'G-EQ6170C8KH');
-     </script>
      </script>
     <link rel="sitemap" href="/sitemap-index.xml" />
     <!-- Add autodiscovery for rss -->
